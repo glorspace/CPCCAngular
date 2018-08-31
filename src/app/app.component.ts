@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { IMailingAddress } from './shared/mailing-address';
+import { IMailingAddress, MailingAddress } from './shared/mailing-address';
 import { ContactInformationService } from './shared/contact-information.service';
-import { IPerson } from './shared/person';
+import { IPerson, Person } from './shared/person';
 
 @Component({
   selector: 'cpcc-root',
@@ -9,19 +9,25 @@ import { IPerson } from './shared/person';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  churchAddress: IMailingAddress;
+  churchAddress: IMailingAddress = new MailingAddress();
   churchPhone: string;
   churchEmail: string;
-  pastorInfo: IPerson;
-  associatePastorInfo: IPerson;
+  pastorInfo: IPerson = new Person();
+  associatePastorInfo: IPerson = new Person();
 
   constructor(private contactInfoService: ContactInformationService) {}
 
   ngOnInit(): void {
-    this.churchAddress = this.contactInfoService.getChurchMailingAddress();
+    this.contactInfoService.getChurchMailingAddress().subscribe(
+      mailingAddress => this.churchAddress = mailingAddress
+    );
     this.churchPhone = this.contactInfoService.getChurchPhoneNumber();
     this.churchEmail = this.contactInfoService.getChurchEmailAddress();
-    this.pastorInfo = this.contactInfoService.getPastorContactInformation();
-    this.associatePastorInfo = this.contactInfoService.getAssociatePastorContactInformation();
+    this.contactInfoService.getPastorContactInformation().subscribe(
+      pastorInfo => this.pastorInfo = pastorInfo
+    );
+    this.contactInfoService.getAssociatePastorContactInformation().subscribe(
+      associatePastorInfo => this.associatePastorInfo = associatePastorInfo
+    );
   }
 }

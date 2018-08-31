@@ -22,6 +22,7 @@ li {
 
 header li:hover {
     background-color: #2196f3;
+    cursor: pointer;
 }
 
 footer {

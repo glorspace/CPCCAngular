@@ -1,4 +1,7 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http'
+import { Observable } from 'rxjs';
+
 import { IMailingAddress } from './mailing-address';
 import { IPerson } from './person';
 
@@ -7,15 +10,10 @@ import { IPerson } from './person';
 })
 export class ContactInformationService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
-  getChurchMailingAddress(): IMailingAddress {
-    return {
-      address: 'P.O. Box 84458',
-      city: 'Lexington',
-      stateCode: 'SC',
-      zipCode: '29073'
-    }
+  getChurchMailingAddress(): Observable<IMailingAddress>   {
+    return this.http.get<IMailingAddress>('api/contact-information/church-mailing-address.json');
   }
 
   getChurchPhoneNumber(): string {
@@ -26,19 +24,11 @@ export class ContactInformationService {
     return 'info@centerpointesc.com';
   }
 
-  getPastorContactInformation(): IPerson {
-    return {
-      name: 'David Moore',
-      title: 'Senior Pastor',
-      email: 'david@centerpointesc.com'
-    }
+  getPastorContactInformation(): Observable<IPerson> {
+    return this.http.get<IPerson>('api/contact-information/pastor.json');
   }
 
-  getAssociatePastorContactInformation(): IPerson {
-    return {
-      name: 'Greg Bolton',
-      title: 'Associate Pastor',
-      email: 'greg@centerpointesc.com'
-    }
+  getAssociatePastorContactInformation(): Observable<IPerson> {
+    return this.http.get<IPerson>('api/contact-information/associate-pastor.json');
   }
 }
