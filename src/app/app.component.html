@@ -13,3 +13,31 @@
 </header>
 <cpcc-home></cpcc-home>
 <router-outlet></router-outlet>
+<footer>
+  <ul>
+    <li>
+      <ul>
+        <li>{{ churchAddress.address }}</li>
+        <li>{{ churchAddress.city }}, {{ churchAddress.stateCode }} {{ churchAddress.zipCode }}</li>
+        <li>{{ churchPhone }}</li>
+        <li>{{ churchEmail }}</li>
+      </ul>      
+    </li>    
+    <li><hr></li>
+    <li>
+      <ul>
+        <li>{{ pastorInfo.name }}</li>
+        <li>{{ pastorInfo.title }}</li>
+        <li>{{ pastorInfo.email }}</li>
+      </ul> 
+    </li>    
+    <li><hr></li>
+    <li>
+      <ul>
+        <li>{{ associatePastorInfo.name }}</li>
+        <li>{{ associatePastorInfo.title }}</li>
+        <li>{{ associatePastorInfo.email }}</li>
+      </ul>
+    </li>
+  </ul>
+</footer>
