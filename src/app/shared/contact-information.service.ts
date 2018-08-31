@@ -10,8 +10,7 @@ export class ContactInformationService {
 
   getMailingAddress(): IMailingAddress {
     return {
-      addressLine1: 'P.O. Box 84458',
-      addressLine2: '',
+      address: 'P.O. Box 84458',
       city: 'Lexington',
       stateCode: 'SC',
       zipCode: '29073'
