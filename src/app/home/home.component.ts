@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'cpcc-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
