@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { IMailingAddress, MailingAddress } from './shared/mailing-address';
+import { IMailingAddress } from './shared/mailing-address';
 import { ContactInformationService } from './shared/contact-information.service';
-import { IPerson, Person } from './shared/person';
+import { IPerson } from './shared/person';
 
 @Component({
   selector: 'cpcc-root',
@@ -9,11 +9,11 @@ import { IPerson, Person } from './shared/person';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  churchAddress: IMailingAddress = new MailingAddress();
+  churchAddress: IMailingAddress;
   churchPhone: string;
   churchEmail: string;
-  pastorInfo: IPerson = new Person();
-  associatePastorInfo: IPerson = new Person();
+  pastorInfo: IPerson;
+  associatePastorInfo: IPerson;
 
   constructor(private contactInfoService: ContactInformationService) {}
 

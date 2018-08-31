@@ -14,7 +14,7 @@
 <cpcc-home></cpcc-home>
 <router-outlet></router-outlet>
 <footer>
-  <ul>
+  <ul *ngIf="churchAddress && pastorInfo && associatePastorInfo">
     <li>
       <ul>
         <li>{{ churchAddress.address }}</li>
