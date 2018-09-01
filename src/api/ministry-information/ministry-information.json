@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Caring Ministry",
+        "summary": "Volunteers visit church attenders, friends and family in local hospitals or nursing homes. They also help provide supplies such as vases, flowers and yarn for shawls used in this ministry. Training is provided.",
+        "contactName": "Laura Sprague",
+        "contactEmail": "laura@centerpointesc.com"
+    },
+    {
+        "name": "Children’s Ministry",
+        "summary": "Volunteers serve Sunday mornings on a rotating basis in a variety of roles. Teachers and assistants, help at the registration desk, and nursery works are all vital to our children’s ministry (for children from birth through sixth grade). Church membership and adherence to Child Safety Policy required.",
+        "contactName": "Lisa Bolton",
+        "contactEmail": "lisa@centerpointesc.com"
+    },
+    {
+        "name": "Coffee Ministry",
+        "summary": "Volunteers serve coffee and tea before Sunday’s worship service. Use the opportunity to connect and enjoy fellowship, sharing Living Water.",
+        "contactName": "Dione Baker",
+        "contactEmail": "dione@centerpointesc.com"
+    },
+    {
+        "name": "Food Ministry",
+        "summary": "Volunteers serve on rotation by providing and serving food in the commons area before service on Sundays. Cost is covered by the church.",
+        "contactName": "Amy Speaks",
+        "contactEmail": "amy@centerpointesc.com"
+    },
+    {
+        "name": "Greeting Ministry",
+        "summary": "Volunteers serve on Sundays and at outreach events, providing bulletins, information, and a smiling face to those who attend.",
+        "contactName": "Ken Stokes",
+        "contactEmail": "ken@centerpointesc.com"
+    },
+    {
+        "name": "Prayer Ministry",
+        "summary": "Meet Sunday mornings at 10 a.m. to pray for our church family, our community and our nation, with a focus on asking God to use our worship service for His purpose and His glory.",
+        "contactName": "info@centerpointesc.com",
+        "contactEmail": "info@centerpointesc.com"
+    },
+    {
+        "name": "Resource Table",
+        "summary": "Serve on rotation to facilitate getting resources into guests’ hands by distributing free books, Bibles and magazines, and producing CDs of the sermon audio.",
+        "contactName": "Leslie Cline",
+        "contactEmail": "leslie@centerpointesc.com"
+    },
+    {
+        "name": "Setup and Tear Down",
+        "summary": "Help unload and set up before service, then tear down and reload everything that helps turn a school into a church each week. This includes band equipment, and supplies for classrooms and the commons area.",
+        "contactName": "Tim Kopacz",
+        "contactEmail": "tim@centerpointesc.com"
+    },
+    {
+        "name": "Sound Team",
+        "summary": "Set up band and sound equipment and run sound for Sunday services and events. Training is required.",
+        "contactName": "Calvin Turnage",
+        "contactEmail": "calvin@centerpointesc.com"
+    },
+    {
+        "name": "Welcome Ministry",
+        "summary": "Volunteers welcome newcomers and provide information as needed to make their church experience a positive one.",
+        "contactName": "Stacy Nicholson",
+        "contactEmail": "stacy@centerpointesc.com"
+    },
+    {
+        "name": "Worship Ministry",
+        "summary": "Backup instrumentalists serve occasional Sunday mornings. Audition process and practice attendance required.",
+        "contactName": "Beth Moore",
+        "contactEmail": "beth@centerpointesc.com"
+    },
+    {
+        "name": "Youth Ministry",
+        "summary": "Volunteers serve in a variety of roles with our youth (grades 7–12). Teach or assist on Sunday mornings or Wednesday nights, or chaperone trips. Church membership and adherence to Child Safety Policy required for some roles.",
+        "contactName": "Greg Bolton",
+        "contactEmail": "greg@centerpointesc.com"
+    }
+]
