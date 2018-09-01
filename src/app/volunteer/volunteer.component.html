@@ -1,0 +1,20 @@
+<img src="http://centerpointesc.com/images/header_volunteer.png">
+<p>
+    Every week our volunteers give of their time and skills. It's a great way to connect with people
+    and make the church feel like a family. Greeting, working with children, toting sound equipment,
+    fixing a leaky roof - you fit in somewhere.
+</p>
+<ul>
+    <li *ngFor="let ministry of ministries">
+        <div class="ministry-header">
+            {{ ministry.name }}
+        </div>
+        <div>
+            {{ ministry.summary }}
+        </div>        
+        <div>
+            <!-- email icon -->
+            <a href="mailto:{{ ministry.contactEmail }}">{{ ministry.contactName }}</a>
+        </div>
+    </li>
+</ul>
