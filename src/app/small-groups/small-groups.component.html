@@ -1,3 +1,34 @@
+<img src="http://centerpointesc.com/images/sml_grp_header.png">
 <p>
-  small-groups works!
+    Center Pointe believes small groups are the perfect way to connect with other believers and with Jesus Christ.
+    This happens in a relaxed home setting where you will make some of the best friends you've ever had. Whether you
+    are a mature believer or someone new to the faith, there is a group for you.
 </p>
+<p>
+    Take a look at the small groups currently being offered and feel free to contact the leader for one that interests
+    you. <a href="mailto:greg@centerpointesc.com">Greg Bolton</a> is our small group ministry leader and is also
+    available to answer your questions.
+</p>
+<ul>
+    <li *ngFor="let smallGroup of smallGroups">
+        <div class="small-group-header">
+            {{ smallGroup.name }}
+        </div>
+        <div>
+            {{ smallGroup.day }}
+        </div>
+        <div>
+            {{ smallGroup.time }}
+        </div>
+        <div>
+            {{ smallGroup.childrenAllowed ? "Yes" : "No" }}
+        </div> 
+        <div>
+            <!-- email icon -->
+            <a href="mailto:{{ smallGroup.leaderEmail }}">{{ smallGroup.leaderName }}</a>
+        </div>
+    </li>
+</ul>
+<a href="https://drive.google.com/open?id=1FsnHmXRZwo8u551u7Lp5zJqLuCE">
+    <img src="http://centerpointesc.com/images/groups_map.jpg">
+</a>

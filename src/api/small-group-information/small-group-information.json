@@ -1,0 +1,82 @@
+[
+    {
+        "name": "BOLTON",
+        "day": "Sundays",
+        "time": "5-7",
+        "childrenAllowed": true,
+        "leaderName": "Greg Bolton",
+        "leaderEmail": "greg@centerpointesc.com"
+    },
+    {
+        "name": "LIVING WATER",
+        "day": "Sundays",
+        "time": "5-7",
+        "childrenAllowed": true,
+        "leaderName": "Jimmy Kesecker",
+        "leaderEmail": "jimmy@centerpointesc.com"
+    },
+    {
+        "name": "MCLEOD / COX",
+        "day": "Sundays",
+        "time": "3pm",
+        "childrenAllowed": true,
+        "leaderName": "Mat Cox",
+        "leaderEmail": "mat@centerpointesc.com"
+    },
+    {
+        "name": "STOKES",
+        "day": "Sundays",
+        "time": "4:30-6",
+        "childrenAllowed": true,
+        "leaderName": "Ken Stokes",
+        "leaderEmail": "ken@centerpointesc.com"
+    },
+    {
+        "name": "TUTEN",
+        "day": "Tuesdays",
+        "time": "7-9",
+        "childrenAllowed": true,
+        "leaderName": "Kenney Tuten",
+        "leaderEmail": "kenney@centerpointesc.com"
+    },
+    {
+        "name": "BAKER",
+        "day": "Wednesdays",
+        "time": "7-9",
+        "childrenAllowed": true,
+        "leaderName": "Leon Baker",
+        "leaderEmail": "leon@centerpointesc.com"
+    },
+    {
+        "name": "CLINE",
+        "day": "Wednesdays",
+        "time": "7-9",
+        "childrenAllowed": true,
+        "leaderName": "Greg Cline",
+        "leaderEmail": "cline@centerpointesc.com"
+    },
+    {
+        "name": "WYLIE / BOND",
+        "day": "Wednesdays",
+        "time": "7-9",
+        "childrenAllowed": true,
+        "leaderName": "Eric Bond",
+        "leaderEmail": "eric@centerpointesc.com"
+    },
+    {
+        "name": "Celebrate Recovery: WOMEN",
+        "day": "Wednesdays",
+        "time": "6:00",
+        "childrenAllowed": false,
+        "leaderName": "Barbara Christensen",
+        "leaderEmail": "barbara@centerpointesc.com"
+    },
+    {
+        "name": "Celebrate Recovery: MEN",
+        "day": "Wednesdays",
+        "time": "5:30",
+        "childrenAllowed": false,
+        "leaderName": "Keith Watts",
+        "leaderEmail": "keith@centerpointesc.com"
+    }
+]
